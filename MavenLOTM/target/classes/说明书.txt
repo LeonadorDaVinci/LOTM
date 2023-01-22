@@ -39,7 +39,7 @@ set music path=[path] - 经测试有部分电脑将无法加载背景音乐，�
 启动方法
 确保电脑已配置JAVA环境（推荐JDK-17）
 打开终端/命令行，如果不知道如何打开请自行google
-在终端控制台进入主目录（*Jlotm），如果不知道如何进入目录请自行google
+在终端控制台进入主目录，如果不知道如何进入目录请自行google
 输入命令：（可复制）
 java -jar MavenLOTM.jar
 

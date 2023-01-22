@@ -9,6 +9,7 @@ public class disclaimer {
         String DisClaimer = Disclaimer.nextLine();
         if (DisClaimer.equals("yes")) {
             System.out.println("通过验证，欢迎");
+            System.out.println("");
         } else if (DisClaimer.equals("no")) {
             System.out.println("请确保阅读说明书后再进行游戏！");
             System.out.println("程序已中止");

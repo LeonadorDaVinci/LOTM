@@ -43,15 +43,17 @@ public class MainStorage {
 
     public static String ReligiousStatus;//教会内部地位
 
-    public static String NobleSystem;
+    public static String CovertOrganization;     //所属隐秘组织（如果有）
+
+    public static String NobleSystem;//贵族等级
 
     public static int TaskLevel;//任务进度
 
-    public static String Squeue;
+    public static String Squeue;//序列名称
 
-    public static int SqueueLevel;
+    public static int SqueueLevel;//序列等级
 
-    public static String PlotTree;
+    public static String PlotTree;//剧情树
 
     public static String CommandContent;//命令内容
 

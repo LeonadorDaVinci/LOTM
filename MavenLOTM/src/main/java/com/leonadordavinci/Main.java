@@ -6,8 +6,10 @@ import com.leonadordavinci.Default_Info.GetDefaultName;
 import com.leonadordavinci.Default_Info.Identities.GetIdentity;
 import com.leonadordavinci.Disclaimer.disclaimer;
 import com.leonadordavinci.Music.MusicThread;
+import com.leonadordavinci.utils.JsonReader;
+import org.json.simple.parser.ParseException;
 
-
+import java.io.IOException;
 
 
 public class Main {
@@ -23,6 +25,18 @@ public class Main {
         System.out.println("————————————————————");
 
         disclaimer.disclaimer();//载入免责声明
+
+        /*
+        JsonReader jsonReader = new JsonReader();
+        try {
+            jsonReader.jacksonMethod("MutatedEmblemOfSun");
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        } catch (ParseException e) {
+            throw new RuntimeException(e);
+        }
+
+         */
 
         MusicThread thread = new MusicThread();
         thread.start();//开启音乐进程
